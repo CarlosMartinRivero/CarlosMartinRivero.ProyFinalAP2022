@@ -1,0 +1,44 @@
+{
+  "results": [
+    {      
+      "name": {        
+        "first": "CARLOS MARTIN",
+        "last": "RIVERO"
+      },
+      "location": {
+        "street": {
+          "number": 1112,
+          "name": "Mitre"
+        },
+        "city": "Bahia Blanca",
+        "state": "Buenos Aires",
+        "country": "Argentina",
+        "postcode": "6301",
+        "coordinates": {
+          "latitude": "-38.7063253",
+          "longitude": "-62.2762614"
+        }
+      },
+      "email": "CarlosMartinRivero@gmail.com",      
+      "dob": {
+        "date": "03-84",
+        "age": 38
+      },      
+      "phone": "2953-498364",
+      "cell": "+549 (2954) 309521",      
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "nat": "Argentina",
+	  "Acercademi":"Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Santander, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo."
+    }
+  ],
+  "info": {
+    "seed": "56d27f4a53bd5441",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }  
+}
