@@ -1,7 +1,11 @@
-  /*Leer archivo Json*/
-  /*const requestURL = 'https://raw.githubusercontent.com/CarlosMartinRivero/CarlosMartinRivero.github.io/main/dat/datos.json'*/
-  const requestURL = 'https://raw.githubusercontent.com/CarlosMartinRivero/CarlosMartinRivero.ProyFinalAP2022/main/dat/datos.json'
   
+  /*Se leen todos los datos desde un archivo Json y son ubicados en los contenedores correspondientes*/
+  /*Además, se carga un mapa con una ubicación establecida con latitud y longitud, sin utilizar google maps (tenía que pagar para usarlo)*/
+  /*Se establece un evento o función cuando se hace click sobre la foto de perfil*/
+  /*se establece el comportamiento del botón menú que aparece cuando la pantalla es pequeña (Como para un celular) que muestra u oculta los enlaces */
+  
+  /*URL para leer archivo Json*/
+  const requestURL = 'https://raw.githubusercontent.com/CarlosMartinRivero/CarlosMartinRivero.ProyFinalAP2022/main/dat/datos.json'  
    
   const request = new XMLHttpRequest();
   request.open('GET', requestURL);
@@ -14,9 +18,7 @@
   
   
 	/*Separo datos que me interesan en este momento*/
-	function CargarDatos(datosCV){
-		/*console.log(datosCV);*/
-		/*console.log(datosCV.results);	*/
+	function CargarDatos(datosCV){		
 		let aux = datosCV.results[0];            		
 		CargarDatosAuxiliar(aux);	
 	};
